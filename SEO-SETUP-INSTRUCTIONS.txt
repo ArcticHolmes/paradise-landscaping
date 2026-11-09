@@ -1,0 +1,9 @@
+Paradise Landscaping SEO update — 2026-11-09
+
+1. Extract this ZIP. Upload its contents to your GitHub paradise-landscaping repository, preserving the assets folder. DO NOT upload the ZIP alone. Existing HTML files will be replaced.
+2. In Google Search Console (https://search.google.com/search-console/), add and verify paradiselandscapingmichigan.com as a Domain property using the DNS TXT verification record provided by Google. Do not delete or overwrite existing DNS entries.
+3. Submit sitemap.xml at https://paradiselandscapingmichigan.com/sitemap.xml after deployment.
+4. Use URL Inspection to request indexing for /florida.html and /michigan.html.
+5. Verify Google Business Profile(s): only establish separate profiles when each has a legitimate separate staffed base/service area; avoid virtual-office addresses. Point each eligible listing at its corresponding state page.
+6. Replace sample gallery images and sample/placeholder wording with actual project photos and descriptive captions. Fix the email-app demo estimate form before running ads.
+7. This package improves technical SEO but DOES NOT guarantee first-page rankings.
