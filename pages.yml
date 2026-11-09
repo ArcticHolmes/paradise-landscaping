@@ -1,0 +1,247 @@
+media:
+  input: assets/uploads
+  output: /assets/uploads
+  rename: safe
+  categories:
+  - image
+content:
+- name: welcome
+  label: Welcome / Location Choice
+  type: file
+  path: content/welcome.json
+  format: json
+  fields:
+  - &id001
+    name: header_logo
+    label: Header logo
+    type: image
+  - &id002
+    name: background_image
+    label: Main background photo
+    type: image
+  - name: headline
+    label: Welcome heading
+    type: string
+  - name: subtitle
+    label: Welcome description
+    type: text
+  - name: sale_active
+    label: Show promotion on this page
+    type: boolean
+  - name: sale_headline
+    label: Promotion headline
+    type: string
+  - name: sale_details
+    label: Promotion details
+    type: text
+- name: florida
+  label: Florida Website
+  type: file
+  path: content/florida.json
+  format: json
+  fields:
+  - *id001
+  - *id002
+  - name: hero_title
+    label: Hero Title
+    type: string
+  - name: hero_subtitle
+    label: Hero Subtitle
+    type: text
+  - name: about_title
+    label: About Title
+    type: string
+  - name: about_intro
+    label: About Intro
+    type: text
+  - name: services_title
+    label: Services Title
+    type: string
+  - name: services_intro
+    label: Services Intro
+    type: text
+  - name: service_0_title
+    label: Service 0 Title
+    type: string
+  - name: service_0_description
+    label: Service 0 Description
+    type: text
+  - name: service_1_title
+    label: Service 1 Title
+    type: string
+  - name: service_1_description
+    label: Service 1 Description
+    type: text
+  - name: service_2_title
+    label: Service 2 Title
+    type: string
+  - name: service_2_description
+    label: Service 2 Description
+    type: text
+  - name: service_3_title
+    label: Service 3 Title
+    type: string
+  - name: service_3_description
+    label: Service 3 Description
+    type: text
+  - name: service_4_title
+    label: Service 4 Title
+    type: string
+  - name: service_4_description
+    label: Service 4 Description
+    type: text
+  - name: service_5_title
+    label: Service 5 Title
+    type: string
+  - name: service_5_description
+    label: Service 5 Description
+    type: text
+  - name: holiday_title
+    label: Holiday Title
+    type: string
+  - name: holiday_intro
+    label: Holiday Intro
+    type: text
+  - name: contact_title
+    label: Contact Title
+    type: string
+  - name: gallery_1_image
+    label: Gallery photo 1
+    type: image
+  - name: gallery_1_caption
+    label: Gallery caption 1
+    type: string
+  - name: gallery_2_image
+    label: Gallery photo 2
+    type: image
+  - name: gallery_2_caption
+    label: Gallery caption 2
+    type: string
+  - name: gallery_3_image
+    label: Gallery photo 3
+    type: image
+  - name: gallery_3_caption
+    label: Gallery caption 3
+    type: string
+  - name: holiday_image
+    label: Christmas Lights image (optional)
+    type: image
+  - name: seasonal_labor_per_foot
+    label: Seasonal Labor Per Foot
+    type: number
+  - name: seasonal_lights_per_foot
+    label: Seasonal Lights Per Foot
+    type: number
+  - name: permanent_labor_per_foot
+    label: Permanent Labor Per Foot
+    type: number
+  - name: permanent_lights_per_foot
+    label: Permanent Lights Per Foot
+    type: number
+  - name: story_2_multiplier
+    label: Story 2 Multiplier
+    type: number
+  - name: story_3_multiplier
+    label: Story 3 Multiplier
+    type: number
+  - name: sale_active
+    label: Show promotion on this page
+    type: boolean
+  - name: sale_headline
+    label: Promotion headline
+    type: string
+  - name: sale_details
+    label: Promotion details
+    type: text
+- name: michigan
+  label: Michigan Website
+  type: file
+  path: content/michigan.json
+  format: json
+  fields:
+  - *id001
+  - *id002
+  - name: hero_title
+    label: Hero Title
+    type: string
+  - name: hero_subtitle
+    label: Hero Subtitle
+    type: text
+  - name: about_title
+    label: About Title
+    type: string
+  - name: about_intro
+    label: About Intro
+    type: text
+  - name: services_title
+    label: Services Title
+    type: string
+  - name: services_intro
+    label: Services Intro
+    type: text
+  - name: service_0_title
+    label: Service 0 Title
+    type: string
+  - name: service_0_description
+    label: Service 0 Description
+    type: text
+  - name: service_1_title
+    label: Service 1 Title
+    type: string
+  - name: service_1_description
+    label: Service 1 Description
+    type: text
+  - name: service_2_title
+    label: Service 2 Title
+    type: string
+  - name: service_2_description
+    label: Service 2 Description
+    type: text
+  - name: service_3_title
+    label: Service 3 Title
+    type: string
+  - name: service_3_description
+    label: Service 3 Description
+    type: text
+  - name: service_4_title
+    label: Service 4 Title
+    type: string
+  - name: service_4_description
+    label: Service 4 Description
+    type: text
+  - name: service_5_title
+    label: Service 5 Title
+    type: string
+  - name: service_5_description
+    label: Service 5 Description
+    type: text
+  - name: contact_title
+    label: Contact Title
+    type: string
+  - name: gallery_1_image
+    label: Gallery photo 1
+    type: image
+  - name: gallery_1_caption
+    label: Gallery caption 1
+    type: string
+  - name: gallery_2_image
+    label: Gallery photo 2
+    type: image
+  - name: gallery_2_caption
+    label: Gallery caption 2
+    type: string
+  - name: gallery_3_image
+    label: Gallery photo 3
+    type: image
+  - name: gallery_3_caption
+    label: Gallery caption 3
+    type: string
+  - name: sale_active
+    label: Show promotion on this page
+    type: boolean
+  - name: sale_headline
+    label: Promotion headline
+    type: string
+  - name: sale_details
+    label: Promotion details
+    type: text
